@@ -1,0 +1,145 @@
+/* 
+
+.plan_name {
+    background-color: rgb(236, 201, 75);
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+    width: 100%;
+
+}
+
+.planeDetails {
+
+    text-align: center;
+    padding: 40px;
+}
+
+.planeDetails p {
+    font-weight: 600;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 100%;
+}
+
+h4 {
+    font-weight: 600 !important;
+}
+
+.title {
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+
+.title h1 {
+    font-size: 2rem;
+}
+
+.plans button {
+    border: none;
+    width: 100%;
+    background-color: rgb(236, 201, 75);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 15px;
+
+}
+
+.policy {
+  
+    text-align: center;
+    background-color: rgb(116, 102, 102);
+    padding: 10px;
+    border-radius: 0px 0px 8px 8px;
+    color: white;
+    font-weight: 600;
+}
+
+.policy span {
+    font-size: 14px;
+}
+
+.paymnetsucces {
+
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.success {
+    background-color: rgb(236, 201, 75);
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+
+
+}
+
+.statusMessage {
+    padding: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.staussymbol {
+
+
+    justify-content: center;
+    display: flex;
+
+}
+
+.symbel {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.status {
+    box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.68);
+    -webkit-box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.68);
+    -moz-box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.68);
+
+
+}
+.toprofile{
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 40px;
+   margin-top: 20px;
+   
+}
+.notfound{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.errer{
+   
+
+ 
+  padding: 10px;
+}
+.errer{
+   display: flex;
+   
+   flex-direction: column;
+   align-items: center;
+}
+.errersymbol{
+font-size: 4rem;
+
+}
+.errermessage h1{
+    font-size: 20px;
+    font-weight: 600;
+
+} */
