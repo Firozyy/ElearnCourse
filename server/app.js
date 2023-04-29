@@ -8,24 +8,25 @@ dotenv.config({path:'./config/.env'});
 
 const app= express();
 import path from "path"
-const _dirname= path.dirname('')
-const buildpath = path.join(_dirname ,"../cousebundler/build") ;
+const _dirname = path.dirname('')
+const buildpath = path.join(_dirname ,"../cousebundler/build/") ;
+
 
 app.use(express.static(buildpath))
 
 app.get('/',function( req, res)  {
-    res.sendFile(path.join(buildpath));
+    res.sendFile(path.join(buildpath,"/index.html"));
 
 })
 
 //cors platform
 
-app.use(cors({
-    origin:process.env.frontend_url,
-    credentials:true,
-    methods:["GET","POST","DELETE","PUT",]
+// app.use(cors({
+//     origin:process.env.frontend_url,
+//     credentials:true,
+//     methods:["GET","POST","DELETE","PUT",]
 
-}))
+// }))
 app.use(cookieparser());
 
 //using midleares
